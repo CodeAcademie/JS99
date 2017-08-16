@@ -1,5 +1,5 @@
 #### Projet-1 {Qui-Quizz}
-===
+
 Votre mission si vous l'acceptez  est de créer un quizz qui aura le design suivant :
 ![Design](design_projet-1.png)
 # Instructions:
