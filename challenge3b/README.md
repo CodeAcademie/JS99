@@ -1,4 +1,4 @@
-#### Challenge 2b - JavaScript {Memory}
+#### Challenge 3b - JavaScript {Memory}
 ===
 Votre mission si vous l'acceptez  est de créer un jeu de memory qui aura au minimum le format suivant : 4x4 tuiles.
 
