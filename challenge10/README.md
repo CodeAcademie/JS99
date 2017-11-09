@@ -1,29 +1,26 @@
-#### Challenge 3b - JavaScript {Memory}
+#### Challenge 10 - JavaScript {Robot Ricochet}
 ===
-Votre mission si vous l'acceptez  est de créer un jeu de memory qui aura au minimum le format suivant : 4x4 tuiles.
+Votre mission si vous l'acceptez  est de créer un jeu de "Robot Ricochet".
+
+Pour des soucis de performance et de facilité d'implémentation, il est fortement recommandé de se limiter à un plateau de 4x4 cases avec peu de robots présents. 
+
+![Demonstration](image001.png)
 
 # Instructions:
-+ vous devrez faire le HTML & le CSS
-+ ainsi que le JS
-   	+ vous devrez manipuler les éléments du DOM (le fameux). 
++ Trouver un algorithme pouvant aider à résoudre l'exercice (cf. Dijkstra)
++ Définir les tests fonctionnels
 + idéalement vous devrer utilisez grunt  et/ou Sass[facultatif]
-+ vous pourrez utiliser un framework  __*bootstrap*__ ou __*foundation*__ voire __*wing*__
 + il vous est conseillé de programmer en orienté objet
 
 ##  Règles:
-+ le memory devra être *reponsive*
-+ Lors d'un click, la tuile doit afficher l'image ci-dessous
-+ Si deux tuiles sont retournées, et ont un motif semblable, elles doivent disparaître et un compteur de points est incrémenté
-+ Si deux tuiles sont retournées, et ont un motif différent, elles doivent retourner face cachée aux mêmes emplacements. 
-+ Dans le cas où toutes les tuiles ont été appariées, le message "Vous avez gagné" doit s'afficher. 
++ Un robot ne peut aller qu'en ligne droite
++ Un robot s'arrête dès qu'il rencontre un mur ou un autre robot.
++ Un minuteur doit être affiché. Un fois le minuteur terminé, la meilleur réponse solution est affichée. 
 
 + vous pouvez allez plus loin si vous le souhaitez.
- + Système de points basé à partir d'un minuteur
- + Rendre le jeu multi-joueur
- + ...
+ + Pouvoir modifier à son gré la taille du plateau et le nombre de robots
+ + Affichage d'indices
+ + Animer le robot lorsque la réponse est affichée
 
-Un gros effort sur l'esthétisme est attendu. Ce projet vous sera utile pour prouver vos compétences au sein de votre portfolio
-
-> Il n'y a point de bonheur sans courage, ni de vertu sans combat
-
+Ce projet vous sera utile pour prouver vos compétences au sein de votre portfolio
 
